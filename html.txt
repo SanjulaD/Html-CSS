@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <div class="topnav">
+      <a class="active" href="#Home">Home</a>
+      <a href="#News">News</a>
+      <a href="#contact">Contact</a>
+      <div class="topnav-right">
+        <a href="#Search">Search</a>
+        <a href="#about">About</a>
+      </div>
+    </div>
+    <br>
+    <h1>LOGIN FORM</h1>
+    <title>Simple Login</title>
+  </head>
+  <body>
+  <form>
+    <div class="imgcontainer">
+      <img src="images.jpg" alt="avatar" class="avatar">
+    </div>
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter your Password"name="remember" required>
+      <button type="Submit">Login</button>
+      <label>
+        <input type="checkbox" name="remember">Remember Me
+      </label>
+    </div>
+    <div class="container">
+      <button type="button" class="cancelbtn"name="button">Cancel</button>
+      <span class"psw" >Forgot <a href="#">Password?</a></span>
+    </div>
+  </body>
+  </form>
+</html>
