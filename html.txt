@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="style.css">
-    <div class="topnav">
+    <link rel="stylesheet" href="style.css"
+    <title>Simple Login</title>
+  </head>
+  <body>
+  <form>
+   <h1>LOGIN FORM</h1>
+   <div class="topnav">
       <a class="active" href="#Home">Home</a>
       <a href="#News">News</a>
       <a href="#contact">Contact</a>
@@ -11,12 +16,6 @@
         <a href="#about">About</a>
       </div>
     </div>
-    <br>
-    <h1>LOGIN FORM</h1>
-    <title>Simple Login</title>
-  </head>
-  <body>
-  <form>
     <div class="imgcontainer">
       <img src="images.jpg" alt="avatar" class="avatar">
     </div>
